@@ -8,6 +8,8 @@ import { NextLogo } from "../components/next-logo";
 
 import { DASHBOARD_CARDS } from "../consts/cards";
 
+export const runtime = 'edge';
+
 export default async function DashboardPage() {
   return (
     <>
