@@ -11,6 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "./components/footer";
 
+export const runtime = 'edge';
+
 import { CARDS } from "./consts/cards";
 import { ClerkLogo } from "./components/clerk-logo";
 import { NextLogo } from "./components/next-logo";
