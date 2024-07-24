@@ -4,6 +4,8 @@ import Script from "next/script";
 import { Metadata } from "next";
 import localFont from "next/font/local";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://clerk-next-app.vercel.app/"),
   title: "Next.js Clerk Template",
